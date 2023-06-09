@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/makanan">
+
+    <fragment
+        android:id="@+id/makanan"
+        android:name="com.example.tugas_apkrestoran.makanan"
+        android:label="fragment_makanan"
+        tools:layout="@layout/fragment_makanan" />
+    <fragment
+        android:id="@+id/minuman"
+        android:name="com.example.tugas_apkrestoran.minuman"
+        android:label="fragment_minuman"
+        tools:layout="@layout/fragment_minuman" />
+    <fragment
+        android:id="@+id/pesanan"
+        android:name="com.example.tugas_apkrestoran.pesanan"
+        android:label="fragment_pesanan"
+        tools:layout="@layout/fragment_pesanan" />
+    <fragment
+        android:id="@+id/user"
+        android:name="com.example.tugas_apkrestoran.user"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/detailmakanan"
+        android:name="com.example.tugas_apkrestoran.detailmakanan"
+        android:label="fragment_detailmakanan"
+        tools:layout="@layout/fragment_detailmakanan" />
+    <fragment
+        android:id="@+id/detailminuman"
+        android:name="com.example.tugas_apkrestoran.detailminuman"
+        android:label="fragment_detailminuman"
+        tools:layout="@layout/fragment_detailminuman" />
+</navigation>
